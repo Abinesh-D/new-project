@@ -1,0 +1,19 @@
+# Root-level ignore
+node_modules/
+.env
+dist/
+build/
+.vscode/
+.DS_Store
+*.log
+
+# Ignore node_modules inside subfolders
+client/node_modules/
+server/node_modules/
+
+# Ignore build folders
+client/build/
+server/build/
+
+# OS files
+Thumbs.db
